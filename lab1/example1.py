@@ -32,7 +32,18 @@ fah = (celc * 1.8) + 32
 print('The solution is ',fah, 'Fahrenheit')
 """
 
-a = int(input("what is the first perpendicuar edge: "))
-b = int(input("What is the second perpendicular edge: "))
+"""
+a = float(input("what is the first perpendicuar edge: "))
+b = float(input("What is the second perpendicular edge: "))
 c = (a**2 + b**2)**0.5
 print("The hypotenus is",c,".")
+"""
+
+
+v_car1 = 80
+v_car2 = 70
+distancebegin = 490
+distancelast = 150
+minutes = 60*(distancebegin - distancelast)/(v_car1+v_car2)
+print(minutes)
+
