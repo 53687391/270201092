@@ -26,6 +26,13 @@ x2 = (-b+d**0.5)/(2*a)
 print("The roots are",x1,"and",x2)
 """
 
+"""
 celc = eval(input('What is the temperature as celcius: '))
 fah = (celc * 1.8) + 32
 print('The solution is ',fah, 'Fahrenheit')
+"""
+
+a = int(input("what is the first perpendicuar edge: "))
+b = int(input("What is the second perpendicular edge: "))
+c = (a**2 + b**2)**0.5
+print("The hypotenus is",c,".")
