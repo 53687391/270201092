@@ -1,1 +1,5 @@
-print("Hello World!")
+#print("Hello World!")
+animals = 10
+chickens = 6
+roosters = animals-chickens
+print("There are ",roosters,"roosters.")
