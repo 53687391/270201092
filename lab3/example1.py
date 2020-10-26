@@ -43,9 +43,10 @@ else:
 
 
 age = int(input("What is your age ?\n"))
+price = 3
 if age < 6 or age > 60:
   print("Free ticket.")
 elif age >= 6 and age < 18:
-  print("%50 ticket discount.")
+  print("%50 ticket discount.",price/2,"$")
 else:
-  print("No discount")
+  print("No discount",price,"$")
