@@ -1,5 +1,4 @@
 # Sum of the last two digits
-
 """
 x = int(input("Enter the value: \n"))
 
@@ -14,7 +13,6 @@ print("Sum of the last 2 digits:", total)
 """
 
 # Leap Year
-
 """
 year = int(input("Enter the year:\n"))
 
@@ -30,8 +28,7 @@ else:
   """
 
 # Sum of list
-
-
+"""
 nums = [8,60,43,55,25,134,1]
 sum_of_list = 0
 for i in range(len(nums)):
@@ -39,3 +36,28 @@ for i in range(len(nums)):
 
 print("Sum of the list is",sum_of_list,".")
 
+"""
+
+# Power
+"""
+a = int(input("What is a:\n"))
+b = int(input("What is  b:\n"))
+result = 1
+
+if b >= 0:
+  for i in range(b):
+    result = result*a
+else:
+  for i in range(0,b,-1):
+    result = result/a
+
+print(result)
+"""
+
+# Factorial
+
+n = int(input("What is the number you want to calculate its factorial?\n"))
+result = 1
+for i in range(1,n+1):
+  result = result * i
+print(result)
