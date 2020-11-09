@@ -13,9 +13,9 @@ else:
 print("Sum of the last 2 digits:", total)
 """
 
-#Leap Year
+# Leap Year
 
-
+"""
 year = int(input("Enter the year:\n"))
 
 if year % 100 == 0:
@@ -27,3 +27,15 @@ elif year % 4 == 0:
   print (year, "is a leap year")
 else:
   print (year ,"is not a leap year")
+  """
+
+# Sum of list
+
+
+nums = [8,60,43,55,25,134,1]
+sum_of_list = 0
+for i in range(len(nums)):
+  sum_of_list += nums[i]
+
+print("Sum of the list is",sum_of_list,".")
+
