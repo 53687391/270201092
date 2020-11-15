@@ -1,4 +1,4 @@
-#Absolute Value
+# Absolute Value
 
 """
 number = float(input("What is the number? \n"))
@@ -21,7 +21,7 @@ print("Minimum value = ",min(number_1,number_2,number_3))
 
 """
 
-#Graduation Condition
+# Graduation Condition
 
 """
 gpa = float(input("What is your gpa ?\n"))
@@ -39,9 +39,9 @@ else:
     print("GRADUATED!!!")
 """
 
-#Ticket Discount
+# Ticket Discount
 
-
+"""
 age = int(input("What is your age ?\n"))
 price = 3
 if age < 6 or age > 60:
@@ -50,3 +50,10 @@ elif age >= 6 and age < 18:
   print("%50 ticket discount.",price/2,"$")
 else:
   print("No discount",price,"$")
+"""
+
+
+
+
+
+  

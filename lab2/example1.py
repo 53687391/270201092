@@ -1,49 +1,44 @@
-#print("Hello World!")
-"""
-animals = 10
-chickens = 6
-roosters = animals-chickens
-print("There are ",roosters,"roosters.")
-"""
+#Absolute Value
 
 """
-x = 1
-y = 4
-z = 0.25
-int(x),int(y),int(z)
-mass_equation = ((((2*x)+y)**2)*(z**0.5))/((x**0.5)+(y**0.5))
-print(mass_equation)
-"""
+number = float(input("What is the number? \n"))
+if number < 0:
+  number = number*-1
+  print("Absolute value: ",number)
+else:
+  print("Absolute value: ",number)
 
 """
-a =2
-b = 6
-c = -20
-int(a), int(b), int(c)
-d = (b**2) - (4*a*c)
-x1 = (-b-d**0.5)/(2*a)
-x2 = (-b+d**0.5)/(2*a)
-print("The roots are",x1,"and",x2)
-"""
+
+# Minimum Value
 
 """
-celc = eval(input('What is the temperature as celcius: '))
-fah = (celc * 1.8) + 32
-print('The solution is ',fah, 'Fahrenheit')
-"""
+number_1 = float(input("What is the number1 ?\n"))
+number_2 = float(input("What is the number2 ?\n"))
+number_3 = float(input("What is the number3 ?\n"))
+
+print("Minimum value = ",min(number_1,number_2,number_3))
 
 """
-a = float(input("what is the first perpendicuar edge: "))
-b = float(input("What is the second perpendicular edge: "))
-c = (a**2 + b**2)**0.5
-print("The hypotenus is",c,".")
-"""
+
+#Graduation Condition
+
+gpa = float(input("What is your gpa ?\n"))
+lecture_num = int(input("What is the number of lectures ?\n"))
+
+if gpa < 2:
+  if lecture_num < 47:
+    print("Not enough nomber of lectures and GPA!")
+  else:
+    print("Not enough GPA!")
+else:
+  if lecture_num < 47:
+    print("Not enough number of lectures")
+  else:
+    print("GRADUATED!!!")
 
 
-v_car1 = 80
-v_car2 = 70
-distancebegin = 490
-distancelast = 150
-minutes = 60*(distancebegin - distancelast)/(v_car1+v_car2)
-print(minutes)
+
+
+
 
