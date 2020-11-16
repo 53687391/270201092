@@ -8,6 +8,7 @@ for i in range(1,11):
 
 # Of evens
 
+"""
 N = int(input("How many numbers ?\n"))
 evens = 0
 for i in range (N):
@@ -16,4 +17,16 @@ for i in range (N):
     evens += 1
 
 print(evens/N*100,"%")
+"""
 
+# Matching Digits
+
+number1 = int(input("First number ?\n"))
+number2 = int(input("Second number ?\n"))
+minn = min(number1,number2)
+minn = str(minn)
+match = 0
+for i in range(len(minn)):
+  if number1 % 10**i == number2 % 10**i:
+    match += 1
+print("There are",match,"digit(s) matched.")
