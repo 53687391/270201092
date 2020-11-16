@@ -21,6 +21,7 @@ print(evens/N*100,"%")
 
 # Matching Digits
 
+"""
 number1 = int(input("First number ?\n"))
 number2 = int(input("Second number ?\n"))
 minn = min(number1,number2)
@@ -30,3 +31,21 @@ for i in range(len(minn)):
   if number1 % 10**i == number2 % 10**i:
     match += 1
 print("There are",match,"digit(s) matched.")
+
+"""
+
+# Password Checker
+
+password = "abc123"
+passw_help = "a"
+while True:
+  passw = input("Enter the password:\n")
+  if passw == password:
+    print("Welcome")
+    break
+  elif passw == "help":
+    print("a")
+  else:
+    print("Wrong Password")
+
+
