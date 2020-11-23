@@ -37,7 +37,7 @@ print("There are",match,"digit(s) matched.")
 # Password Checker
 
 password = "abc123"
-passw_help = "a"
+passw_help = password[0]
 while True:
   passw = input("Enter the password:\n")
   if passw == password:
