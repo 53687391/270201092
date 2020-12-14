@@ -16,6 +16,6 @@ def get_overlap(x,y):
 
 x = get_rand_list(3,20,6)
 y = get_rand_list(3,20,6)
-print("First list ->",x)
-print("Second list ->",y)
+print("First random list ->",x)
+print("Second random list ->",y)
 print("Overlap -->",get_overlap(x,y))
